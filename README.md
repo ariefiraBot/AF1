@@ -1,0 +1,2 @@
+# AF10bot
+Protect

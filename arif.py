@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 
-#aditmadzs = LineClient(authToken='ISI TOKEN MU CINTA')
+# kalo mau pake token  tambah di dalam kurung [adirmadzs = LineClient(authToken="")] kalo gak tau terlalu....???
 aditmadzs = LineClient()
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 k1 = LineClient()
@@ -2842,9 +2842,9 @@ def bot(op):
                    mentionees = mention['MENTIONEES']
                    for mention in mentionees:
                         if mention ['M'] in Bots:
-                           aditmadzs.sendMessage(msg.to, wait["Respontag"])
+                           aditmadzs.sendMessage(msg._from, wait["Respontag"])
                            aditmadzs.sendImageWithURL(msg._from,image)
-                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"21715710","STKPKGID":"9662","STKVER":"2"}, contentType=7)
+                           aditmadzs.sendMessage(msg._from, None, contentMetadata={"STKID":"21715710","STKPKGID":"9662","STKVER":"2"}, contentType=7)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
                  if wait["Mentiongift"] == True:

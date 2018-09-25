@@ -4,6 +4,7 @@
 
 ----
 # [ADD ME!](https://line.me/R/ti/p/~limbizkids)
+PESAN ANE JANGAN DI PERJUAL BELIKAN 
 
 # Termux
 

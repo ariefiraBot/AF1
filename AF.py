@@ -400,7 +400,7 @@ def help():
                   "╠❂➣ " + key + "Respon\n" + \
                   "╠❂➣ " + key + "Speed/Sp\n" + \
                   "╠❂➣ " + key + "Sprespon\n" + \
-                  "╠❂➣ " + key + "Tagall\n" + \
+                  "╠❂➣ " + key + "Mentionall/ned/tag/Tagall\n" + \
                   "╠❂➣ " + key + "join\n" + \
                   "╠❂➣ " + key + "Assist join\n" + \
                   "╠❂➣ " + key + "Ginfo\n" + \
